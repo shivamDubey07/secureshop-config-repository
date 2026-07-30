@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/identity_dev_db
+
+logging:
+  level:
+    com.secureshop.identity: DEBUG
+
+app:
+  environment: development
