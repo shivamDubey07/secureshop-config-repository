@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    open-in-view: false
+
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        format_sql: true
+
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: INFO
+
+app:
+  organization: SecureShop
+  environment: development
