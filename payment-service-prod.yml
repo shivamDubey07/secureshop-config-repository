@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: ${PAYMENT_DB_URL}
+    username: ${PAYMENT_DB_USERNAME}
+    password: ${PAYMENT_DB_PASSWORD}
+
+logging:
+  level:
+    root: WARN
+
+app:
+  environment: production
