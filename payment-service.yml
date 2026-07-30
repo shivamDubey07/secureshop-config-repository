@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/payment_db
-    username: postgres
-    password: password
+    url: jdbc:postgresql://localhost:5436/payment_db
+    username: payment_user
+    password: payment_user_password
     hikari:
       minimum-idle: 2
       maximum-pool-size: 10
